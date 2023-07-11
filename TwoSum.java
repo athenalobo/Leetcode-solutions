@@ -15,8 +15,6 @@
 // Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 
-import java.util.HashMap;
-import java.util.Map;
 
 class Solution
 {
@@ -31,10 +29,4 @@ class Solution
         }
         return null;
     }
-    public static void main(String[] args) {
-        int[] arr = {3, 2, 4};
-        int[] result = twoSum(arr, 6);
-        System.out.println("Ans: [" + result[0] + ", " + result[1] + "]");
-    }
-    
 }
